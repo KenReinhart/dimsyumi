@@ -1,0 +1,102 @@
+/*NAVBAR*/
+#navbar {
+    position: absolute;
+    top: 5%;
+    left: 45.6%;
+    max-width: 100%;
+    max-height: auto;
+}
+
+#navbarDua {
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    max-width: 100%;
+    max-height: auto;
+}
+
+#navbarFont {
+    font-family: Cambria;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+/*LOGO*/
+#imgLogoTopLeft {
+    margin-top: 25px;
+    margin-left: 85px;
+    max-width: 100%;
+    height: auto;
+    object-position: left top;
+}
+
+#opening {
+    position: absolute;
+    top: 17.5%;
+    left: 24.2%;
+    max-width: 100%;
+    max-height: auto;
+
+    transform: all 0.3s;
+}
+
+#opening:hover {
+    transform: translateY(-10px);
+}
+
+/*FONTS*/
+#title {
+    color: white;
+}
+
+/*COLORS*/
+#bgColor {
+    background-color: #e4e1d6;
+}
+
+/*NAVIGATIONS*/
+#navigations {
+    margin-top: 60px;
+    margin-left: 85px;
+    object-position: left top;
+}
+
+#navFont {
+    font-family: Cambria;
+    font-size: 48px;
+    text-decoration: none;
+    color: black;
+}
+
+/*CONTENT*/
+#imgContent {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    max-width: 100%;
+    max-height: auto;
+}
+
+#fontContent {
+    position: absolute;
+    top: 18%;
+    left: 41.5%;
+    max-width: 100%;
+    max-height: auto;
+}
+
+/*BODY*/
+#body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+#row {
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    max-width: 100%;
+    max-height: auto;
+}
