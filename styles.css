@@ -2,9 +2,9 @@
 #navbar {
     position: absolute;
     top: 5%;
-    left: 45.6%;
-    max-width: 100%;
-    max-height: auto;
+    left: 44.2%;
+    max-width: 50%;
+    height: auto;
 }
 
 #navbarDua {
@@ -33,9 +33,9 @@
 #opening {
     position: absolute;
     top: 17.5%;
-    left: 24.2%;
-    max-width: 100%;
-    max-height: auto;
+    left: 25%;
+    max-width: 50%;
+    height: auto;
 
     transform: all 0.3s;
 }
@@ -79,7 +79,7 @@
 
 #fontContent {
     position: absolute;
-    top: 18%;
+    top: 16%;
     left: 41.5%;
     max-width: 100%;
     max-height: auto;
@@ -100,3 +100,20 @@
     max-width: 100%;
     max-height: auto;
 }
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 53vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
