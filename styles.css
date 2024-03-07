@@ -23,6 +23,7 @@
 }
 /*LOGO*/
 #imgLogoTopLeft {
+    position: absolute;
     margin-top: 25px;
     margin-left: 85px;
     max-width: 100%;
